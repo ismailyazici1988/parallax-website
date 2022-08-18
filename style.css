@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 2rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+.container-1 {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+}
+.heading-container {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+.big-head {
+  background-color: black;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem solid purple;
+  outline-offset: 1rem;
+  font-size: 3rem;
+}
+.small-head {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.3rem solid purple;
+  outline-offset: 0.2rem;
+}
+.section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1rem;
+}
+.container-2 {
+  background-image: url(./img/bg2.jpg);
+  height: 100vh;
+}
+.logo {
+  width: 30%;
+  margin: 1rem;
+}
+.dark {
+  background-color: black;
+  color: #ddd;
+  opacity: 0.8;
+}
+.container-3 {
+  background-image: url(./img/bg3.jpg);
+  height: 100vh;
+}
+.container-4 {
+  background-image: url(./img/bg4.jpg);
+  height: 100vh;
+}
+.container-5 {
+  background-image: url(./img/bg1.jpg);
+  height: 100vh;
+}
